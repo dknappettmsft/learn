@@ -10,10 +10,10 @@ Each parameter is composed of 2-9 elements. These can be seen below:
         "type" : "<type-of-parameter-value>",
         "defaultValue": "<default-value-of-parameter>",
         "allowedValues": [ "<array-of-allowed-values>" ],
-        "minValue": "<minimum-value-for-int>",
-        "maxValue": "<maximum-value-for-int>",
-        "minLength": "<minimum-length-for-string-or-array>",
-        "maxLength": "<maximum-length-for-string-or-array-parameters>",
+        "minValue": <minimum-value-for-int>,
+        "maxValue": <maximum-value-for-int>,
+        "minLength": <minimum-length-for-string-or-array>,
+        "maxLength": <maximum-length-for-string-or-array-parameters>,
         "metadata": {
             "description": "<description-of-the parameter>"
         }
