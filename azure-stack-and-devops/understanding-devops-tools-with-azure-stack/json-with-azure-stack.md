@@ -3,16 +3,16 @@
 JavaScript Object Notation (JSON) is an extremely lightweight way of storing information in structured manner with Property Value data. For example, the JSON document below describes a person and their address:
 
 ```JSON
-    {
-        "givenName" : "Jon",
-        "lastName" : "Doe",
-        "address" : {
-            "line1" : "21 Unknown Street",
-            "city:" : "Seattle",
-            "state" : "WA",
-            "zipCode" : "12345"
-        }
+{
+    "givenName" : "Jon",
+    "lastName" : "Doe",
+    "address" : {
+        "line1" : "21 Unknown Street",
+        "city:" : "Seattle",
+        "state" : "WA",
+        "zipCode" : "12345"
     }
+}
 ```
 
 As you can see in the preceding example, the code is in a human readable format. You can attach additional items such as a reference to a schema to ensure the JSON document meets the required structure.
@@ -27,9 +27,9 @@ Within an ARM Template, you cannot add JavaScript comments as shown in the follo
 // This is the Resources section
 "resources": [
 {
-"name": "[variables('storageAccountName')]",
-"type": "Microsoft.Storage/storageAccounts",
-"location": "[variables('location')]",
+    "name": "[variables('storageAccountName')]",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "[variables('location')]",
 ...
 ```
 

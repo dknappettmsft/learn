@@ -28,17 +28,17 @@ Within an Azure Resource Manager Policy, you can establish a baseline for tags i
 The snippet from an ARM Policy shows this:
 
 ```JSON
-    {
-        "if": {
-        "not" : {
-            "field" : "tags",
-            "containsKey" : "DataProfile"
-        }
-    },
-    "then" : {
-        "effect" : "deny"
-        }
+{
+    "if": {
+    "not" : {
+        "field" : "tags",
+        "containsKey" : "DataProfile"
     }
+},
+"then" : {
+    "effect" : "deny"
+    }
+}
 ```
 
 When using tags, it is possible to include a space within the Key value. However, we do not recommend including one. We recommend using Pascal casing, where each word used starts with a capital letter but does not contain spaces, such as DataProfile and CostCenter. For more information, refer to the following website: <https://aka.ms/moc-10995A-pg049>.

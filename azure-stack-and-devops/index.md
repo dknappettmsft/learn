@@ -43,3 +43,19 @@
 [SDKs and Tags used in Azure Stack](/azure-stack-and-devops/understanding-devops-tools-with-azure-stack/sdks-and-tags-used-in-azure-stack.md)
 
 [Tagging Resources](/azure-stack-and-devops/understanding-devops-tools-with-azure-stack/tagging-resources.md)
+
+## [Azure Resource Manager Templates (ARM)](/azure-stack-and-devops/azure-resource-manager-templates/)
+
+[Azure Resource Manager Templates (ARM)](/azure-stack-and-devops/azure-resource-manager-templates/azure-resource-manager-templates.md)
+
+[Components of an ARM Template](/azure-stack-and-devops/azure-resource-manager-templates/components-of-an-arm-template.md)
+
+[Parameters](/azure-stack-and-devops/azure-resource-manager-templates/parameters.md)
+
+[Variables](/azure-stack-and-devops/azure-resource-manager-templates/variables.md)
+
+[ARM Resources](/azure-stack-and-devops/azure-resource-manager-templates/arm-resources.md)
+
+[Outputs](/azure-stack-and-devops/azure-resource-manager-templates/outputs.md)
+
+[Linking Templates](/azure-stack-and-devops/azure-resource-manager-templates/linking-templates.md)
