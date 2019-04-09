@@ -1,57 +1,26 @@
 # Understanding Azure Resource Manager
 
-Azure and Azure Stack combine multiple layers of technology to form the
-overall solution. From the user experience layer to the physical
-infrastructure underneath, you can control everything through the Azure
-Resource Manager). Azure Resource Manager is responsible for all
-communication from Resource Providers to Cloud Operators, Cloud
-Administrators, and DevOps and vice versa. The diagram on the slide
-shows, in detail, the position of Azure Resource Manager in the overall
-architecture of Azure and Azure Stack.
+Azure and Azure Stack combine multiple layers of technology to form the overall solution. From the user experience layer to the physical infrastructure underneath, you can control everything through the Azure Resource Manager. Azure Resource Manager is responsible for all communication from Resource Providers to Cloud Operators, Cloud Administrators, and DevOps and vice versa. The diagram on the slide shows, in detail, the position of Azure Resource Manager in the overall architecture of Azure and Azure Stack.
 
 ![Understanding Azure Resource Manager](media/understanding-azure-resource-manager.png)
 
 ## APIs
 
-All interactions with the resource providers that power the functions of
-Azure and Azure Stack occur through the ARM layer. The ARM layer exposes
-itself to using Representational State Transfer (REST) APIs that are all
-based on HTTPS communication. Each API is available in several versions,
-and when you interact with the API, you must append the API version you
-want to use by using the following format:
+All interactions with the resource providers that power the functions of Azure and Azure Stack occur through the ARM layer. The ARM layer exposes itself to using Representational State Transfer (REST) APIs that are all based on HTTPS communication. Each API is available in several versions, and when you interact with the API, you must append the API version you want to use by using the following format:
 
 ```html
 https://management.local.azurestack.external/subscriptions/{subscriptionId}/{resourceprovider request}?api-version={API date}
 ```
 
-The graphical portals supplied by Microsoft communicates with the
-ARM-based REST APIs to extract information and display that in the
-portal. Azure PowerShell, Azure Command-Line Interface (CLI) and
-development tools such as Visual Studio communicate with ARM by using
-REST APIs. The API version is critical to understanding the
-functionality available from the Resource Provider.
+The graphical portals supplied by Microsoft communicates with the ARM-based REST APIs to extract information and display that in the portal. Azure PowerShell, Azure Command-Line Interface (CLI) and development tools such as Visual Studio communicate with ARM by using REST APIs. The API version is critical to understanding the functionality available from the Resource Provider.
 
 ## ARM Application Management
 
-Application infrastructure is typically comprised of many components
-such as virtual machines, storage accounts, web applications, databases,
-and more. All these components are often seen as a single entity that
-forms an application with resources that depend on one another to form
-the application. Therefore, you want to ensure the resources that form
-the application are deployed, managed, and monitored as one entity
-rather than separate, disparate components.
+Application infrastructure is typically comprised of many components such as virtual machines, storage accounts, web applications, databases, and more. All these components are often seen as a single entity that forms an application with resources that depend on one another to form the application. Therefore, you want to ensure the resources that form the application are deployed, managed, and monitored as one entity rather than separate, disparate components.
 
-ARM enables you to manage these resources as a group. With ARM, you can
-deploy, update, and delete the resources that form your application in a
-single, coordinated action. You can use templates for deployment that
-are reusable across different working environments such as development,
-testing, and production. Using the ARM model, you can enable auditing
-and other features such as tagging to aid your management of these
-resources after deployment.
+ARM enables you to manage these resources as a group. With ARM, you can deploy, update, and delete the resources that form your application in a single, coordinated action. You can use templates for deployment that are reusable across different working environments such as development, testing, and production. Using the ARM model, you can enable auditing and other features such as tagging to aid your management of these resources after deployment.
 
-To understand more about the functions of Azure Resource Manager, you
-should be familiar with the terminology used. The following table
-describes the terminology used in Azure Resource Manager.
+To understand more about the functions of Azure Resource Manager, you should be familiar with the terminology used. The following table describes the terminology used in Azure Resource Manager.
 
 |Term|ARM Definition|
 |---------|---------|
@@ -63,24 +32,16 @@ describes the terminology used in Azure Resource Manager.
 
 Azure Resource Manager provides several benefits, which allow you to:
 
-- Deploy, manage, and monitor all the resources that are part of your
-    solution as a group rather than as separate resources.
+- Deploy, manage, and monitor all the resources that are part of your solution as a group rather than as separate resources.
 
-- Create templates that are declarative rather than creating scripts
-    for deployment and you can reuse the templates throughout the
-    application lifecycle knowing that the resources are deployed
-    consistently each time.
+- Deploy, manage, and monitor all the resources that are part of your solution as a group rather than as separate resources.
 
-- Declare resource dependency to ensure resources are deployed in the
-    correct order for your solution.
+- Create templates that are declarative rather than creating scripts for deployment and you can reuse the templates throughout the application lifecycle knowing that the resources are deployed consistently each time.
 
-- Use Azure Resource Manager to apply Role-Based Access Control (RBAC)
-    to resources so that certain users/groups can only undertake the
-    actions they have permission to perform and is fully integrated into
-    the platform for every resource provider.
+- Declare resource dependency to ensure resources are deployed in the correct order for your solution.
 
-- Apply tags to resources so that you can organize resources in a way
-    that works for you.
+- Use Azure Resource Manager to apply Role-Based Access Control (RBAC) to resources so that certain users/groups can only undertake the actions they have permission to perform and is fully integrated into the platform for every resource provider.
 
-- Use tags to collate billing for resources to help identify costs of
-    a solution and not just of a resource.
+- Apply tags to resources so that you can organize resources in a way that works for you.
+
+- Use tags to collate billing for resources to help identify costs of a solution and not just of a resource.
