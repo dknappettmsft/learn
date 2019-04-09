@@ -26,7 +26,7 @@
 
 [DSC Summary](/azure-stack-and-devops/powershell-desired-state-configuration/dsc-summary.md)
 
-## [Understanding Chef, Puppet, GitHub, JSON and Visual Studio with Azure Stack](/azure-stack-and-devops/understanding-chef-puppet-github-json-and-visual-studio-in-azure-stack/)
+## [Understanding DevOps Tools with Azure Stack](/azure-stack-and-devops/understanding-chef-puppet-github-json-and-visual-studio-in-azure-stack/)
 
 [Understanding DevOps Tools with Azure Stack](/azure-stack-and-devops/understanding-devops-tools-with-azure-stack/understanding-devops-tools-with-azure-stack.md)
 
