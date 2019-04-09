@@ -34,4 +34,4 @@ You can apply DevOps practices to core infrastructure and to applications. Becau
 
 ## Video: Azure Stack Application Development
 
-![Video: Azure Stack Application Development](http://img.youtube.com/vi/119hashutck/0.jpg)<a href="https://www.youtube.com/watch?v=119hashutck" target="_blank"></a>
+[![Video: Azure Stack Application Development](http://img.youtube.com/vi/119hashutck/0.jpg)](https://www.youtube.com/watch?v=119hashutck)
