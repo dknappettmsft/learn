@@ -2,7 +2,7 @@
 
 You have seen how to use PowerShell DSC to create configurations and apply them to virtual machines during deployment. The Azure Resource Manager is also capable of connecting deployments to other configuration management tools such as Chef, Puppet, BMC Control-M, and other tools.
 
-![Understanding Chef, Puppet, GitHub, JSON and Visual Studio with Azure Stack](media/understanding-devops-tools-with-azure-stack.png)
+![Understanding DevOps Tools with Azure Stack](media/understanding-devops-tools-with-azure-stack.png)
 
 When you deploy a virtual machine through the Azure Stack Portal, the Azure Virtual Machine Agent (VM Agent) is automatically installed for you. It is a lightweight agent that performs several tasks for you:
 
