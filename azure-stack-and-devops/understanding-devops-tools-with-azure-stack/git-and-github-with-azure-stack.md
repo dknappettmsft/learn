@@ -18,6 +18,6 @@ When deploying Azure Resource Manager templates to Azure or Azure Stack, you can
 
 The PowerShell command below shows how to reference a template stored on GitHub and deploy to Azure or Azure Stack:
 
-```html
+```powershell
 New-AzureRmResourceGroupDeployment -Name ExampleDeployment -ResourceGroupName ExampleResourceGroup -TemplateUri https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-vm-simple-windows/azuredeploy.json
 ```
