@@ -18,7 +18,7 @@ Every Resource must implement the following three functions:
 
 1. **Get-TargetResource:** This function accepts all the parameters for the resource and then checks if the parameters match the configuration. The function returns a hashtable of the parameters with the values that they are determined to be. For example, in the WindowsFeature Resource, you specify the Name parameter to be “Web-Server” and the Ensure parameter to be “Present”. The output of this function returns a hashtable with a Key/Value pair of “Name=Web-Server” and a Key/Value pair of “Ensure=Present”, if the feature is a present, or “Ensure=Absent”, if the feature is not installed.
 \
-Example hashtable output:
+ Example hashtable output:
 
     ```mof
     @{
