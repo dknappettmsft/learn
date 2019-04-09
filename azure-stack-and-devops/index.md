@@ -18,7 +18,7 @@
 
 [DSC Configurations](/azure-stack-and-devops/powershell-desired-state-configuration/dsc-configurations.md)
 
-[RRsources for DSC](/azure-stack-and-devops/powershell-desired-state-configuration/resources-for-dsc.md)
+[Resources for DSC](/azure-stack-and-devops/powershell-desired-state-configuration/resources-for-dsc.md)
 
 [Lifecycle Management (LCM)](/azure-stack-and-devops/lifecycle-management/lifecycle-management.md)
 
