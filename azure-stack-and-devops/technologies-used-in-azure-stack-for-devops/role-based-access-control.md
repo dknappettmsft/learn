@@ -43,4 +43,4 @@ than one role definition to an Azure Active Directory (Azure AD)
 identity.
 
 Designing RBAC for subscriptions, resource groups, and resources is the
-responsibility of the Cloud Administrator. Please refer to the following website: <https://aka.ms/moc-10995A-pg044>.
+responsibility of the Cloud Administrator. For more information, refer to the following website: <https://aka.ms/moc-10995A-pg044>.
