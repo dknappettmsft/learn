@@ -27,20 +27,8 @@ Example hashtable output:
     }
     ```
 
-2. **Set-TargetResource:** This function accepts all the parameters for
-    the resource and performs the required steps, as defined in the
-    function, to apply the required configuration. This function might
-    be called multiple times. Therefore, it might be necessary to test
-    each section of the configuration. For example if you install SQL
-    Server 2012, you need to install the Microsoft .NET Framework 3.5 on
-    the server. However, you should test if it is already installed and
-    then proceed with the SQL Server installation.
+2. **Set-TargetResource:** This function accepts all the parameters for the resource and performs the required steps, as defined in the function, to apply the required configuration. This function might be called multiple times. Therefore, it might be necessary to test each section of the configuration. For example if you install SQL Server 2012, you need to install the Microsoft .NET Framework 3.5 on the server. However, you should test if it is already installed and then proceed with the SQL Server installation.
 
-3. **Test-TargetResource:** This function accepts all the parameters
-    for the resource and then checks if the configuration is applied
-    correctly or not. It returns a True/False value based on the
-    configuration test.
+3. **Test-TargetResource:** This function accepts all the parameters for the resource and then checks if the configuration is applied correctly or not. It returns a True/False value based on the configuration test.
 
-The DSC engine uses these three functions to determine if the required
-configuration is already in place which is undertaken by the Lifecycle
-Management (LCM).
+The DSC engine uses these three functions to determine if the required configuration is already in place which is undertaken by the Lifecycle Management (LCM).
