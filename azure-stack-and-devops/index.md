@@ -28,18 +28,18 @@
 
 ## [Understanding Chef, Puppet, GitHub, JSON and Visual Studio with Azure Stack](/azure-stack-and-devops/understanding-chef-puppet-github-json-and-visual-studio-in-azure-stack/)
 
-[Understanding Chef, Puppet, GitHub, JSON and Visual Studio with Azure Stack](/azure-stack-and-devops/understanding-chef-puppet-github-json-and-visual-studio-with-azure-stack/understanding-chef-puppet-github-json-and-visual-studio-with-azure-stack.md)
+[Understanding DevOps Tools with Azure Stack](/azure-stack-and-devops/understanding-devops-tools-with-azure-stack/understanding-devops-tools-with-azure-stack.md)
 
-[Chef with Azure Stack](/azure-stack-and-devops/understanding-chef-puppet-github-json-and-visual-studio-with-azure-stack/chef-with-azure-stack.md)
+[Chef with Azure Stack](/azure-stack-and-devops/understanding-devops-tools-with-azure-stack/chef-with-azure-stack.md)
 
-[Puppet with Azure Stack](/azure-stack-and-devops/understanding-chef-puppet-github-json-and-visual-studio-with-azure-stack/puppet-with-azure-stack.md)
+[Puppet with Azure Stack](/azure-stack-and-devops/understanding-devops-tools-with-azure-stack/puppet-with-azure-stack.md)
 
-[Visual Studio with Azure Stack](/azure-stack-and-devops/understanding-chef-puppet-github-json-and-visual-studio-with-azure-stack/visual-studio-with-azure-stack.md)
+[Visual Studio with Azure Stack](/azure-stack-and-devops/understanding-devops-tools-with-azure-stack/visual-studio-with-azure-stack.md)
 
-[Git and GitHub with Azure Stack](/azure-stack-and-devops/understanding-chef-puppet-github-json-and-visual-studio-with-azure-stack/git-and-github-with-azure-stack.md)
+[Git and GitHub with Azure Stack](/azure-stack-and-devops/understanding-devops-tools-with-azure-stack/git-and-github-with-azure-stack.md)
 
-[JSON with Azure Stack](/azure-stack-and-devops/understanding-chef-puppet-github-json-and-visual-studio-with-azure-stack/json-with-azure-stack.md)
+[JSON with Azure Stack](/azure-stack-and-devops/understanding-devops-tools-with-azure-stack/json-with-azure-stack.md)
 
-[SDKs and Tags used in Azure Stack](/azure-stack-and-devops/understanding-chef-puppet-github-json-and-visual-studio-with-azure-stack/sdks-and-tags-used-in-azure-stack.md)
+[SDKs and Tags used in Azure Stack](/azure-stack-and-devops/understanding-devops-tools-with-azure-stack/sdks-and-tags-used-in-azure-stack.md)
 
-[Tagging Resources](/azure-stack-and-devops/understanding-chef-puppet-github-json-and-visual-studio-with-azure-stack/tagging-resources.md)
+[Tagging Resources](/azure-stack-and-devops/understanding-devops-tools-with-azure-stack/tagging-resources.md)
