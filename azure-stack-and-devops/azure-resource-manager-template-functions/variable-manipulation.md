@@ -11,7 +11,7 @@ concat (string1, string2, string3, …)
 To reference a parameter that is passed during deployment time you need to use the parameters function. The syntax for which is shown below:
 
 ```JSON
-parameters(‘<parameter name>’)
+parameters('<parameter name>')
 ```
 
 The ARM template snippet below shows a parameter called vmPrefix and two variables vm1Name and vm2Name. The snippet shows how to use the concat function with the parameter function to create a unique variable content:
@@ -34,5 +34,5 @@ The ARM template snippet below shows a parameter called vmPrefix and two variabl
 To reference a variable in an ARM Template you use the variables function. The syntax for this is shown below:
 
 ```JSON
-variables(‘<variable name’)
+variables('<variable name')
 ```

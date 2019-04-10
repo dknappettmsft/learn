@@ -14,10 +14,10 @@ When you create an Azure Resource Manager Template in Visual Studio, you can cho
 
 There are numerous files generated for an ARM Template with Visual Studio. However, the key files are:
 
-- azuredeploy.json: This file contains the ARM template that is to be deployed.
+- **azuredeploy.json:** This file contains the ARM template that is to be deployed.
 
-- azuredeploy.parameters.json: This file contains any parameters that need to be passed to ARM to deploy to the template.
+- **azuredeploy.parameters.json:** This file contains any parameters that need to be passed to ARM to deploy to the template.
 
-- Deploy-AzureResourceGroup.ps1: This is a pre-created Windows PowerShell file that can be used to deploy the ARM template.
+- **Deploy-AzureResourceGroup.ps1:** This is a pre-created Windows PowerShell file that can be used to deploy the ARM template.
 
 To aid in the development of Azure Resource Manager templates, Microsoft has created starter templates in Visual Studio. By using Visual Studio, you also can connect directly to the publicly available Azure Resource Manager templates on GitHub. These templates have been created by Microsoft and by the technical community.
