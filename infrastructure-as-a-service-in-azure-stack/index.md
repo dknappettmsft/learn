@@ -23,3 +23,13 @@
 [User Defined Routing and IP Forwarding](/infrastructure-as-a-service-in-azure-stack/software-defined-networking-improvements-with-microsoft-azure-stack/user-defined-routing-and-ip-forwarding.md)
 
 [External Connectivity to Azure Stack Tenant Networks](/infrastructure-as-a-service-in-azure-stack/software-defined-networking-improvements-with-microsoft-azure-stack/external-connectivity-to-azure-stack-tenant-networks.md)
+
+## [Azure Stack Storage](/infrastructure-as-a-service-in-azure-stack/azure-stack-storage/)
+
+[Storage Account Architecture](/infrastructure-as-a-service-in-azure-stack/azure-stack-storage/storage-account-architecture.md)
+
+[Microsoft Azure Consistency](/infrastructure-as-a-service-in-azure-stack/azure-stack-storage/microsoft-azure-consistency.md)
+
+[Azure Consistent Security](/infrastructure-as-a-service-in-azure-stack/azure-stack-storage/azure-consistent-security.md)
+
+[Storage Retention in Azure Stack](/infrastructure-as-a-service-in-azure-stack/azure-stack-storage/storage-retention-in-azure-stack.md)
