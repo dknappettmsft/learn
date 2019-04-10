@@ -59,3 +59,21 @@
 [Outputs](/azure-stack-and-devops/azure-resource-manager-templates/outputs.md)
 
 [Linking Templates](/azure-stack-and-devops/azure-resource-manager-templates/linking-templates.md)
+
+## [Azure Resource Manager Template Functions](/azure-stack-and-devops/azure-resource-manager-template-functions/)
+
+[Azure Resource Manager Template Functions](/azure-stack-and-devops/azure-resource-manager-template-functions/azure-resource-manager-template-functions.md)
+
+[Variable Manipulation](/azure-stack-and-devops/azure-resource-manager-template-functions/variable-manipulation.md)
+
+[Objects as Variables](/azure-stack-and-devops/azure-resource-manager-template-functions/objects-as-variables.md)
+
+[Visual Studio and Azure Resource Manager Templates](/azure-stack-and-devops/azure-resource-manager-template-functions/visual-studio-and-azure-resource-manager-templates.md)
+
+[Creating an Azure Resource Manager Template Project in Visual Studio](/azure-stack-and-devops/azure-resource-manager-template-functions/creating-an-azure-resource-manager-template-project-in-visual-studio.md)
+
+[Deploying Azure Resource Manager Templates](/azure-stack-and-devops/azure-resource-manager-template-functions/deploying-azure-resource-manager-templates.md)
+
+[Azure Resource Manager Template Deployment Types](/azure-stack-and-devops/azure-resource-manager-template-functions/azure-resource-manager-template-deployment-types.md)
+
+[Validating Azure Resource Manager Templates](/azure-stack-and-devops/azure-resource-manager-template-functions/validating-azure-resource-manager-templates.md)
