@@ -6,7 +6,7 @@ You specify UDRs at the subnet level and these are designed to control traffic b
 
 The following diagram shows a simple configuration where direct communication between subnets is not permitted:
 
-![User Defined Routing and IP Forwarding](media/udr-and-ip-forwarding.png)
+![User Defined Routing and IP Forwarding](media/user-defined-routing-and-ip-forwarding.png)
 
 The following table shows how to implement the configuration shown in the preceding diagram:
 

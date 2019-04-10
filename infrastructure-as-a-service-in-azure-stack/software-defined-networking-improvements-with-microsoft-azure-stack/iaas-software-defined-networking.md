@@ -2,7 +2,7 @@
 
 The Network Controller is responsible for managing all aspects of the SDN within Azure Stack. The Network Controller uses various technologies to update the SDN layers to ensure the tenant networks work as required. It uses industry-standard protocols for updating hosts and physical network appliances. It is highly reliant on the Border Gateway Protocol (BGP) to exchange routing information between routers and the SDN layer.
 
-![IaaS Software Defined Networking](media/iaas-sdn.png)
+![IaaS Software Defined Networking](media/iaas-software-defined-networking.png)
 
 With the HNVv2 stack, Microsoft has included two key Network Function Virtualization features:
 
