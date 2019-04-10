@@ -1,18 +1,8 @@
 # What is DevOps
 
-This module discusses the fundamentals of how Microsoft Azure Stack enables organizations to use DevOps. It details the foundations of Azure Stack, Azure Resource Manager, the software development kits (SDKs), and application programming interface (APIs) available. You will also learn how to use configuration management technologies such as Windows PowerShell Desired State Configuration, Chef, and Puppet to facilitate fast and consistent deployment of applications along with providing stability.
-
-After completing this module, you will be able to:
-
-- Understand the technologies used by DevOps in Azure Stack.
-
-- Manage templates in Azure Resource Manager.
-
-- Identify third-party resource providers available for Azure Stack.
+The term DevOps has been used a lot in recent years to denote a change in traditional working practices. In the traditional siloed structure, the communication between silos was challenging and sometimes almost non-existent. The DevOps working practices help you migrate to a much more collaborative working structure, where communication and value is the core working practices.
 
 ![what is DevOps?](media/what-is-devops.png)
-
-The term DevOps has been used a lot in recent years to denote a change in traditional working practices. In the traditional siloed structure, the communication between silos was challenging and sometimes almost non-existent. The DevOps working practices help you migrate to a much more collaborative working structure, where communication and value is the core working practices.
 
 Azure Stack technology can help with the following key practices in DevOps:
 
