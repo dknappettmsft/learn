@@ -1,4 +1,4 @@
-# Create the network resources in Azure
+# Create the Network Resources in Azure
 
 First you create the network resources for Azure. The following instructions show how to create the resources by using the Azure portal: <https://portal.azure.com>.
 

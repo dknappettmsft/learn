@@ -100,7 +100,7 @@
 
 [Connect Azure Stack to Azure using VPN](/azure-stack-and-devops/connect-azure-stack-to-azure-using-vpn/connect-azure-stack-to-azure-using-vpn.md)
 
-[Create the network resources in Azure](/azure-stack-and-devops/connect-azure-stack-to-azure-using-vpn/create-the-network-resources-in-azure.md)
+[Create the Network Resources in Azure](/azure-stack-and-devops/connect-azure-stack-to-azure-using-vpn/create-the-network-resources-in-azure.md)
 
 [Create the Network Resources in Azure Stack](/azure-stack-and-devops/connect-azure-stack-to-azure-using-vpn/create-the-network-resources-in-azure-stack.md)
 
