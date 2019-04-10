@@ -33,3 +33,19 @@
 [Azure Consistent Security](/infrastructure-as-a-service-in-azure-stack/azure-stack-storage/azure-consistent-security.md)
 
 [Storage Retention in Azure Stack](/infrastructure-as-a-service-in-azure-stack/azure-stack-storage/storage-retention-in-azure-stack.md)
+
+## [Virtual Machines in Azure Stack](/infrastructure-as-a-service-in-azure-stack/virtual-machines-in-azure-stack/)
+
+[Virtual Machine Guest Operating Systems](/infrastructure-as-a-service-in-azure-stack/virtual-machines-in-azure-stack/virtual-machine-guest-operating-systems.md)
+
+[Accessing Virtual Machine Operating Systems](/infrastructure-as-a-service-in-azure-stack/virtual-machines-in-azure-stack/accessing-virtual-machine-operating-systems.md)
+
+[Different Virtual Machine Types in Microsoft Azure Stack](/infrastructure-as-a-service-in-azure-stack/virtual-machines-in-azure-stack/different-virtual-machine-types-in-microsoft-azure-stack.md)
+
+[Virtual Machine Architecture](/infrastructure-as-a-service-in-azure-stack/virtual-machines-in-azure-stack/virtual-machine-architecture.md)
+
+[Pagefile](/infrastructure-as-a-service-in-azure-stack/virtual-machines-in-azure-stack/pagefile.md)
+
+[Virtual Hard Disk Limitations](/infrastructure-as-a-service-in-azure-stack/virtual-machines-in-azure-stack/virtual-hard-disk-limitations.md)
+
+[Virtual Machine Migration](/infrastructure-as-a-service-in-azure-stack/virtual-machines-in-azure-stack/virtual-machine-migration.md)
