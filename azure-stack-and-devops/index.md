@@ -105,3 +105,9 @@
 [Create the Network Resources in Azure Stack](/azure-stack-and-devops/connect-azure-stack-to-azure-using-vpn/create-the-network-resources-in-azure-stack.md)
 
 [Test the Connection](/azure-stack-and-devops/connect-azure-stack-to-azure-using-vpn/test-the-connection.md)
+
+## [Resource Providers API](/azure-stack-and-devops/resource-providers-api/)
+
+[Resource Providers API](/azure-stack-and-devops/resource-providers-api/resource-providers-api.md)
+
+[API Call Reference](/azure-stack-and-devops/resource-providers-api/api-call-reference.md)

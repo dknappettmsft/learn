@@ -24,7 +24,7 @@ Use the following high-level steps to deploy an Azure Resource Manager template 
     (Invoke-RestMethod -Uri https://management.local.azurestack.external/metadata/endpoints?api-version=1.0 -Method Get).authentication.audiences[0]
     ```
 
-    The value returned will be in the format: <https://api.azurestack.local/[GUID]>
+    The value returned will be in the format: `https://api.azurestack.local/<GUID>`
     &nbsp;
 
 2. In the Azure CLI, run the following command, remembering to substitute the value obtained in the previous step:
