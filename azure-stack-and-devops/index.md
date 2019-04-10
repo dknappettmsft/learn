@@ -95,3 +95,13 @@
 [EvOps from GridPro Software](/azure-stack-and-devops/third-party-resource-providers/evops-from-gridpro-software.md)
 
 [Azure Stack Cloud Connect from CloudAssert](/azure-stack-and-devops/third-party-resource-providers/azure-stack-cloud-connect-from-cloudassert.md)
+
+## [Connect Azure Stack to Azure using VPN](/azure-stack-and-devops/connect-azure-stack-to-azure-using-vpn/)
+
+[Connect Azure Stack to Azure using VPN](/azure-stack-and-devops/connect-azure-stack-to-azure-using-vpn/connect-azure-stack-to-azure-using-vpn.md)
+
+[Create the network resources in Azure](/azure-stack-and-devops/connect-azure-stack-to-azure-using-vpn/create-the-network-resources-in-azure.md)
+
+[Create the Network Resources in Azure Stack](/azure-stack-and-devops/connect-azure-stack-to-azure-using-vpn/create-the-network-resources-in-azure-stack.md)
+
+[Test the Connection](/azure-stack-and-devops/connect-azure-stack-to-azure-using-vpn/test-the-connection.md)
