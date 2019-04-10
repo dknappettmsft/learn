@@ -1,0 +1,11 @@
+# Azure Stack Cloud Connect from CloudAssert
+
+CloudAssert is an independent software vendor (ISV) based in Redmond, Washington, USA. They provide several products for the Windows Azure Pack, which include:
+
+1. **Usage and Billing:** This software collects the usage data from the Windows Azure Pack and generates invoices based on the user usage. By using this software, tenants can access this usage data directly from the WAP Tenant Portal. WAP administrators can create pricing plans directly from the WAP Admin Portal by accessing all the available usage meters for the various resource providers (including GridPro’s Request Management Resource Provider). After a pricing plan has been established, you can apply it directly to WAP plans.
+
+2. **Connect:** This is a resource provider for WAP that can connect to various other non-Microsoft platforms such VMware, Amazon AWS, OpenStack, and it can also connect to Azure. This enables tenants to perform operations directly from the WAP Tenant Portal on these other platforms. For example, within the VMware connection, Tenants can deploy a virtual machine from a VMware template to a VMware vSphere Hypervisor through vCenter integration. You can customize the UX for the deployment to present the options in a way that the WAP Administrator requires. You also can perform external validation of user input. The process can also initiate workflows inside the vConnect Resource Provider such as running a custom Windows PowerShell script.
+
+CloudAssert also provides Azure Stack Cloud Connect, which brings the functionality of their vConnect application to Azure Stack. The Azure Stack Cloud Connect is ARM template-compliant. Therefore, you can create ARM templates for doing deployments of resources to other connected infrastructure such as VMware.
+
+This enables a common deployment methodology for resources across multiple hosting infrastructures and therefore, this can drastically reduce the time to deploy resources. You could use a single API or ARM, rather than having to learn several different API sets.

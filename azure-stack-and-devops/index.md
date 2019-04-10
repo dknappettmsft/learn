@@ -77,3 +77,21 @@
 [Azure Resource Manager Template Deployment Types](/azure-stack-and-devops/azure-resource-manager-template-functions/azure-resource-manager-template-deployment-types.md)
 
 [Validating Azure Resource Manager Templates](/azure-stack-and-devops/azure-resource-manager-template-functions/validating-azure-resource-manager-templates.md)
+
+## [Deploying Azure Resource Manager Templates](/azure-stack-and-devops/deploying-azure-resource-manager-templates/)
+
+[Deployment with the Azure Stack Portal](/azure-stack-and-devops/deploying-azure-resource-manager-templates/deployment-with-the-azure-stack-portal.md)
+
+[Deployment with Azure PowerShell](/azure-stack-and-devops/deploying-azure-resource-manager-templates/deployment-with-azure-powershell.md)
+
+[Deployment with Azure CLI](/azure-stack-and-devops/deploying-azure-resource-manager-templates/deployment-with-azure-cli.md)
+
+[Deployment with Visual Studio](/azure-stack-and-devops/deploying-azure-resource-manager-templates/deployment-with-visual-studio.md)
+
+## [Third-Party Resource Providers](/azure-stack-and-devops/deploying-azure-resource-manager-templates/)
+
+[Third-Party Resource Providers](/azure-stack-and-devops/third-party-resource-providers/third-party-resource-providers.md)
+
+[EvOps from GridPro Software](/azure-stack-and-devops/third-party-resource-providers/evops-from-gridpro-software.md)
+
+[Azure Stack Cloud Connect from CloudAssert](/azure-stack-and-devops/third-party-resource-providers/azure-stack-cloud-connect-from-cloudassert.md)
