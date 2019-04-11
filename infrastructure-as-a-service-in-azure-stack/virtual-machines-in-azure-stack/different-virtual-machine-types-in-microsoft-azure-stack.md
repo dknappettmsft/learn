@@ -165,24 +165,24 @@ The sizes listed in the preceding tables are consistent with Azure virtual machi
 
 **Note:** As an Azure Stack Cloud Operator, you cannot create your own sizes of virtual machines or adjust the predetermined sizes. This is to ensure consistency with Azure.
 
-When you deploy virtual machines in Azure Stack, several different components are involved in the deployment process as shown on the following slide. Because Microsoft has developed Azure Stack using a microservices architecture, each component undertakes its task and reports back to the controller.
+When you deploy virtual machines in Azure Stack, several different components are involved in the deployment process. Because Microsoft has developed Azure Stack using a microservices architecture, each component undertakes its task and reports back to the controller.  These are listed below:
 
-- Compute Resource Provider Tenant Resources. Each virtual machine that is deployed must have a storage account and a virtual network. This component checks that the referenced entities exist and that the configuration has all the required properties set. It creates a model of the deployment and a sequence of work activities to deploy the virtual machine.
+- **Compute Resource Provider Tenant Resources:** Each virtual machine that is deployed must have a storage account and a virtual network. This component checks that the referenced entities exist and that the configuration has all the required properties set. It creates a model of the deployment and a sequence of work activities to deploy the virtual machine.
 
-- Blob Manager. This is the component that communicates with the Storage resource provider to convert the Blob URL from the Storage Account, to an SMB path that you can use with Hyper-V because Hyper-V cannot use a URL for its storage path.
+- **Blob Manager.:** This is the component that communicates with the Storage resource provider to convert the Blob URL from the Storage Account, to an SMB path that you can use with Hyper-V because Hyper-V cannot use a URL for its storage path.
 
-- Network Manager. This component communicates with the Network Resource Provider to create an appropriate network adapter configuration and obtain a MAC address.
+- **Network Manager: This component communicates with the Network Resource Provider to create an appropriate network adapter configuration and obtain a MAC address.
 
-- Compute Controller. This component instructs Hyper-V to create the virtual machine and is also responsible for any edits to a virtual machine.
+- **Compute Controller:** This component instructs Hyper-V to create the virtual machine and is also responsible for any edits to a virtual machine.
 
-- Placement Manager. This communicates with the Cluster Manager component to determine where the virtual machine should be deployed.
+- **Placement Manager:** This communicates with the Cluster Manager component to determine where the virtual machine should be deployed.
 
-- ISO Manager. This creates a dedicated ISO for the virtual machine to use during provisioning. The unattend.xml file is placed in this ISO to enable specialization of the virtual machine.
+- **ISO Manager:** This creates a dedicated ISO for the virtual machine to use during provisioning. The unattend.xml file is placed in this ISO to enable specialization of the virtual machine.
 
-- Diagnostics Manager. This is responsible for collecting all the required diagnostic information from the virtual machine, including event logs or boot diagnostics.
+- **Diagnostics Manager:** This is responsible for collecting all the required diagnostic information from the virtual machine, including event logs or boot diagnostics.
 
-- Cluster Manager. This monitors the status of the nodes in Hyper-V to ensure it is aware of their status and can aid the Placement Manager in determining resource location.
+- **Cluster Manager:** This monitors the status of the nodes in Hyper-V to ensure it is aware of their status and can aid the Placement Manager in determining resource location.
 
-- Topology Manager. This maintains a list of all the hosts and clusters that are available to the Computer Resource Provider.
+- **Topology Manager:** This maintains a list of all the hosts and clusters that are available to the Computer Resource Provider.
 
-- Availability Set Controller. This ensures that virtual machines are placed in the correct Azure Stack fabric fault domain. This ensures an even distribution of virtual machines in an availability set.
+- **Availability Set Controller:** This ensures that virtual machines are placed in the correct Azure Stack fabric fault domain. This ensures an even distribution of virtual machines in an availability set.
