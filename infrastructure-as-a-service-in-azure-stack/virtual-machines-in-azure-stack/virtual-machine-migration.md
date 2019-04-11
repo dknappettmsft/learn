@@ -25,7 +25,7 @@ We recommend that after you install the VM Agent, you do not uninstall it becaus
 The VM Agent is capable of extracting diagnostic information from the running operating system and outputting that, through the Azure Stack Fabric, to a Storage Account. The following table shows some example diagnostic information that can be collected.
 
 |Operating System|Example Diagnostic Information|
-|---------|---------|---------|
+|---------|---------|
 |Windows|\Processor(_Total)% Processor Time, \Process(_Total)\Thread Count, \Memory\Available Bytes, \PhysicalDisk(_Total)\Disk Transfers/sec|
 |Linux|CPU privileged time, Memory available, Disk transfers|
 
