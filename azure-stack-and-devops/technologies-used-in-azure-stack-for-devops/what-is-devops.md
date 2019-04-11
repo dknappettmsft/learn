@@ -22,6 +22,8 @@ Azure Stack technology can help with the following key practices in DevOps:
 
 You can apply DevOps practices to core infrastructure and to applications. Because all infrastructure, ranging from virtual networks to storage, is software-defined, you can apply the practices that apply to applications.
 
+***
+
 ## Video: Azure Stack Application Development
 
-[![Video: Azure Stack Application Development](http://img.youtube.com/vi/119hashutck/0.jpg)](https://www.youtube.com/watch?v=119hashutck)
+[![Video: Azure Stack Application Development](media/video-what-is-devops.png)](media/edited_azurestackconsistentappdev.mp4)

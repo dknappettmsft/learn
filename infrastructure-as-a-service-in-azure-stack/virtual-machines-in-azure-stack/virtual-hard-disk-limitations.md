@@ -1,0 +1,5 @@
+# Virtual Hard Disk Limitations
+
+As mentioned earlier, Azure Stack uses VHD files for virtual machine storage and not VHDX files. This is to ensure consistency with Microsoft Azure because the underlying providers must match the functionality of Azure. Additionally, the maximum size of a VHD file in Azure Stack is 1023GB. The maximum number of disks that can be attached to a virtual machine is controlled by the size and instance type of the virtual machine. For example, a D1v2 can have two data disks attached, whereas a D4v2 can have 16 data disks attached.
+
+**Note:** If tenants require a volume of more than 1023GB, then it is recommended to use disk striping technologies such as storage spaces within a Windows Server-based virtual machine or Logical Volume Management Striping in Linux. For more information on storage spaces, refer to the following website: <https://aka.ms/moc-10995A-pg059>.

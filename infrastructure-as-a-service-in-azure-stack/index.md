@@ -49,3 +49,9 @@
 [Virtual Hard Disk Limitations](/infrastructure-as-a-service-in-azure-stack/virtual-machines-in-azure-stack/virtual-hard-disk-limitations.md)
 
 [Virtual Machine Migration](/infrastructure-as-a-service-in-azure-stack/virtual-machines-in-azure-stack/virtual-machine-migration.md)
+
+## [Azure Stack Datacenter Integration](/infrastructure-as-a-service-in-azure-stack/azure-stack-datacenter-integration/)
+
+[Azure Stack Datacenter Integration - DNS](/infrastructure-as-a-service-in-azure-stack/azure-stack-datacenter-integration/azure-stack-datacenter-integration-dns.md)
+
+[Azure Stack Datacenter Integration - Publish Endpoints](/infrastructure-as-a-service-in-azure-stack/azure-stack-datacenter-integration/azure-stack-datacenter-integration-publish-endpoints.md)
