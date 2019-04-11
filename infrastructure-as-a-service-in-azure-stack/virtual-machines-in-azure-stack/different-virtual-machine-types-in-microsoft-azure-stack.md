@@ -171,7 +171,7 @@ When you deploy virtual machines in Azure Stack, several different components ar
 
 - **Blob Manager.:** This is the component that communicates with the Storage resource provider to convert the Blob URL from the Storage Account, to an SMB path that you can use with Hyper-V because Hyper-V cannot use a URL for its storage path.
 
-- **Network Manager: This component communicates with the Network Resource Provider to create an appropriate network adapter configuration and obtain a MAC address.
+- **Network Manager:** This component communicates with the Network Resource Provider to create an appropriate network adapter configuration and obtain a MAC address.
 
 - **Compute Controller:** This component instructs Hyper-V to create the virtual machine and is also responsible for any edits to a virtual machine.
 
