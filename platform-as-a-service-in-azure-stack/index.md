@@ -22,7 +22,7 @@
 
 [Configuring Capacity for the SQL Resource Provider](/platform-as-a-service-in-azure-stack/sql-server-and-mysql-server-providers-in-azure-stack/configuring-capacity-for-the-sql-resource-provider.md)
 
-[Adding Quota for the SQL Resource Provider](/platform-as-a-service-in-azure-stack/sql-server-and-mysql-server-providers-in-azure-stack/adding-quota-for-the-sql-resource-provider.md)
+[Adding Quotas for the SQL Resource Provider](/platform-as-a-service-in-azure-stack/sql-server-and-mysql-server-providers-in-azure-stack/adding-quotas-for-the-sql-resource-provider.md)
 
 [Configuring Capacity for the MySQL Resource Provider](/platform-as-a-service-in-azure-stack/sql-server-and-mysql-server-providers-in-azure-stack/configuring-capacity-for-the-mysql-resource-provider.md)
 
