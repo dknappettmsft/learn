@@ -179,7 +179,7 @@ To deploy App Service resource provider, follow these steps:
 After you deploy and register the App Service resource provider, test it to make sure that users can deploy web and API apps.
 
 >[!NOTE]
->You need to create an offer that has the Microsoft.Web namespace in the plan. You also need a tenant subscription that subscribes to the offer. For more information, see [Create offer](azure-stack-create-offer.md) and [Create plan](azure-stack-create-plan.md).
+>You need to create an offer that has the Microsoft.Web namespace in the plan. You also need a tenant subscription that subscribes to the offer. For more information, see [Create offer](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-create-offer) and [Create plan](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-create-plan).
 >
 >You *must* have a tenant subscription to create applications that use App Service on Azure Stack. The only tasks that a service admin can complete in the admin portal are related to the resource provider administration of App Service. This includes adding capacity, configuring deployment sources, and adding Worker tiers and SKUs.
 >

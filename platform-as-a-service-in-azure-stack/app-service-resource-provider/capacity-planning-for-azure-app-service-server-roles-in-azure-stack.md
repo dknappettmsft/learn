@@ -64,7 +64,7 @@ When deciding on the number of shared web worker roles to use, review these cons
 
    `5,000 * 70 * 0.05 – (10 * 1044) = 7060 (= about 7 GB)`
 
-   For information about adding more worker instances, see [Adding more worker roles](azure-stack-app-service-add-worker-roles.md).
+   For information about adding more worker instances, see [Adding more worker roles](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-app-service-add-worker-roles).
 
 ### Additional considerations for dedicated workers during upgrade and maintenance
 
