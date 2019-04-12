@@ -32,7 +32,7 @@
 
 [Overview of App Service Resource Provider](/platform-as-a-service-in-azure-stack/app-service-resource-provider/overview-of-app-service-resource-provider.md)
 
-[Capacity Planning for Azure App Service Server Roles in Azure Stack](/platform-as-a-service-in-azure-stack/capacity-planning-for-azure-app-service-server-roles-in-azure-stack.md)
+[Capacity Planning for Azure App Service Server Roles in Azure Stack](/platform-as-a-service-in-azure-stack/app-service-resource-provider/capacity-planning-for-azure-app-service-server-roles-in-azure-stack.md)
 
 [Before you get started with App Service on Azure Stack](/platform-as-a-service-in-azure-stack/app-service-resource-provider/before-you-get-started-with-app-service-on-azure-stack.md)
 
