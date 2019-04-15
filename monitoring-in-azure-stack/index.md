@@ -52,9 +52,9 @@
 
 [Troubleshooting Azure Stack](/monitoring-in-azure-stack/troubleshooting-azure-stack/troubleshooting-azure-stack.md)
 
-[Azure Stack virtual Machine Shut Down Order](/monitoring-in-azure-stack/troubleshooting-azure-stack/troubleshooting-azure-stack.md)
+[Azure Stack Virtual Machine Shut Down Order](/monitoring-in-azure-stack/troubleshooting-azure-stack/azure-stack-virtual-machine-shut-down-order.md)
 
-[Azure Stack Virtual Machine Start Up Order](/monitoring-in-azure-stack/troubleshooting-azure-stack/azure-stack-virtual-machine-shut-down-order.md)
+[Azure Stack Virtual Machine Start Up Order](/monitoring-in-azure-stack/troubleshooting-azure-stack/azure-stack-virtual-machine-start-up-order.md)
 
 [Using the Audit Logs](/monitoring-in-azure-stack/troubleshooting-azure-stack/using-the-audit-logs.md)
 
@@ -63,3 +63,11 @@
 [Using Azure Stack Diagnostic Tools](/monitoring-in-azure-stack/troubleshooting-azure-stack/using-azure-stack-diagnostic-tools.md)
 
 [Trace Collector and Log Collection Tool](/monitoring-in-azure-stack/troubleshooting-azure-stack/trace-collector-and-log-collection.md)
+
+## [Protecting Azure Stack and Tenant Workloads](/monitoring-in-azure-stack/protecting-azure-stack-and-tenant-workloads/)
+
+[Protecting Azure Stack and Tenant Workloads](/monitoring-in-azure-stack/protecting-azure-stack-and-tenant-workloads/protecting-azure-stack-and-tenant-workloads.md)
+
+[Requirements for the Backup Controller](/monitoring-in-azure-stack/protecting-azure-stack-and-tenant-workloads/requirements-for-the-backup-controller.md)
+
+[Protecting Tenant Workloads in Azure Stack](/monitoring-in-azure-stack/protecting-azure-stack-and-tenant-workloads/protecting-tenant-workloads-in-azure-stack.md)
