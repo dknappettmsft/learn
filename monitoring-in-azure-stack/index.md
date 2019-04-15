@@ -44,9 +44,9 @@
 
 [Azure Site Recovery](/monitoring-in-azure-stack/monitoring-guest-workloads-in-azure-stack/azure-site-recovery.md)
 
-[Monitoring Guest Operating Systems and Applications with Operations Manager](/monitoring-in-azure-stack/monitoring-guest-operating-systems-and-applications-with-operations-manager.md)
+[Monitoring Guest Operating Systems and Applications with Operations Manager](/monitoring-in-azure-stack/monitoring-guest-workloads-in-azure-stack/monitoring-guest-operating-systems-and-applications-with-operations-manager.md)
 
-[Configuring Integration Between Operations Manager and OMS](/monitoring-in-azure-stack/configuring-integration-between-operations-manager-and-oms.md)
+[Configuring Integration Between Operations Manager and OMS](/monitoring-in-azure-stack/monitoring-guest-workloads-in-azure-stack/configuring-integration-between-operations-manager-and-oms.md)
 
 ## [Troubleshooting Azure Stack](/monitoring-in-azure-stack/troubleshooting-azure-stack/)
 
